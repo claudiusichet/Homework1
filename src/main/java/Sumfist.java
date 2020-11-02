@@ -1,8 +1,8 @@
 public class Sumfist{
-    int numbermax = 100;
     public static void main(String[] args) {
 
-    int numbermax = 100, sum = 0;
+    int numbermax = 100;
+    int sum = 0;
 
     for(int i = 1; i <= numbermax; ++i)
     {

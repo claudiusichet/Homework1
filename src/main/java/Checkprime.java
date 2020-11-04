@@ -1,12 +1,12 @@
 public class Checkprime {
     public static void main(String[] args) {
         int i = 0;
-        int start = 568;
-        int num = 0;
+        int start = 7;
         String primeNumbers = "";
 
         for (i = 0; i < start; i++) {
             int counter = 0;
+            int num = 0;
             for (num = i; num >= 1; num--) {
                 if (i % num == 0) {
                     counter = counter + 1;
